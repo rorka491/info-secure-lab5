@@ -1,0 +1,128 @@
+[
+  {
+    "id": "short",
+    "alphabet": "en",
+    "purpose": "Короткая фраза",
+    "text": "Meet at noon.",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "medium",
+    "alphabet": "en",
+    "purpose": "Средний образец",
+    "text": "At noon the study group meets by the garden. The group tests a model carrier and records the results. Later the group compares the original message with the decoded text.",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "punctuation",
+    "alphabet": "en",
+    "purpose": "Регистр и пунктуация",
+    "text": "Quiet, lab team! Ready?",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "repeated",
+    "alphabet": "en",
+    "purpose": "Повторяющиеся буквы",
+    "text": "AAAA BALLOON BALLOON",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "rare",
+    "alphabet": "en",
+    "purpose": "Редкие буквы",
+    "text": "Jazz wax quiz",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "russian",
+    "alphabet": "ru",
+    "purpose": "Контрольный пример Цезаря",
+    "text": "ВСТРЕЧА УЧЕБНОЙ ГРУППЫ В ДЕСЯТЬ ЧАСОВ",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "latin",
+    "alphabet": "en",
+    "purpose": "Латиница",
+    "text": "A fictional signal.",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "digits",
+    "alphabet": "ru",
+    "purpose": "Сохранение цифр",
+    "text": "КОД 42, ЭТАП 7.",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  },
+  {
+    "id": "long",
+    "alphabet": "en",
+    "purpose": "Длинный образец",
+    "text": "At noon the study group records its observations in a shared notebook. The class changes the arrangement of letters and checks whether the original text can be recovered. Each small experiment provides evidence about a property of the model. The results from the previous exercise are compared with the output of the new exercise. The fictional team observes which letters occur most often in a long passage. The instructor then asks the teams to compare the decoded notes with the originals. The study group discusses what an observer could learn from a pattern in a message.At noon the study group records its observations in a shared notebook. The class changes the arrangement of letters and checks whether the original text can be recovered. Each small experiment provides evidence about a property of the model. The results from the previous exercise are compared with the output of the new exercise. The fictional team observes which letters occur most often in a long passage. The instructor then asks the teams to compare the decoded notes with the originals. The study group discusses what an observer could learn from a pattern in a message.",
+    "algorithms": [
+      "caesar",
+      "atbash",
+      "polybius",
+      "vigenere",
+      "permutation",
+      "rotor"
+    ]
+  }
+]

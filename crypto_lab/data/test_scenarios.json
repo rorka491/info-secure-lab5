@@ -1,0 +1,184 @@
+{
+  "analysis_ids": [
+    "short",
+    "medium",
+    "long"
+  ],
+  "caesar_id": "russian",
+  "journal": [
+    {
+      "time": "2026-11-23T09:00:00+07:00",
+      "destination": "192.0.2.10",
+      "protocol": "HTTPS",
+      "bytes_out": 450,
+      "process": "lab_sync",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:01:00+07:00",
+      "destination": "192.0.2.10",
+      "protocol": "HTTPS",
+      "bytes_out": 605,
+      "process": "lab_sync",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:02:00+07:00",
+      "destination": "192.0.2.10",
+      "protocol": "HTTPS",
+      "bytes_out": 760,
+      "process": "lab_sync",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:03:00+07:00",
+      "destination": "192.0.2.10",
+      "protocol": "HTTPS",
+      "bytes_out": 915,
+      "process": "lab_sync",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:04:00+07:00",
+      "destination": "198.51.100.21",
+      "protocol": "HTTPS",
+      "bytes_out": 1070,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:05:00+07:00",
+      "destination": "198.51.100.22",
+      "protocol": "HTTPS",
+      "bytes_out": 1225,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:06:00+07:00",
+      "destination": "198.51.100.20",
+      "protocol": "HTTPS",
+      "bytes_out": 1380,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:07:00+07:00",
+      "destination": "198.51.100.21",
+      "protocol": "HTTPS",
+      "bytes_out": 1535,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:08:00+07:00",
+      "destination": "198.51.100.22",
+      "protocol": "HTTPS",
+      "bytes_out": 1690,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:09:00+07:00",
+      "destination": "198.51.100.20",
+      "protocol": "HTTPS",
+      "bytes_out": 1845,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:10:00+07:00",
+      "destination": "198.51.100.21",
+      "protocol": "HTTPS",
+      "bytes_out": 2000,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:11:00+07:00",
+      "destination": "198.51.100.22",
+      "protocol": "HTTPS",
+      "bytes_out": 2155,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:12:00+07:00",
+      "destination": "198.51.100.20",
+      "protocol": "HTTPS",
+      "bytes_out": 2310,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:13:00+07:00",
+      "destination": "198.51.100.21",
+      "protocol": "HTTPS",
+      "bytes_out": 2465,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:14:00+07:00",
+      "destination": "198.51.100.22",
+      "protocol": "HTTPS",
+      "bytes_out": 2620,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:15:00+07:00",
+      "destination": "198.51.100.20",
+      "protocol": "HTTPS",
+      "bytes_out": 2775,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:16:00+07:00",
+      "destination": "198.51.100.21",
+      "protocol": "HTTPS",
+      "bytes_out": 2930,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:17:00+07:00",
+      "destination": "198.51.100.22",
+      "protocol": "HTTPS",
+      "bytes_out": 3085,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:18:00+07:00",
+      "destination": "198.51.100.20",
+      "protocol": "HTTPS",
+      "bytes_out": 3240,
+      "process": "lab_browser",
+      "check": "учебная запись"
+    },
+    {
+      "time": "2026-11-23T09:19:00+07:00",
+      "destination": "203.0.113.99",
+      "protocol": "HTTPS",
+      "bytes_out": 1500000,
+      "process": "lab_export",
+      "check": "учебная запись"
+    }
+  ],
+  "expectations": [
+    {
+      "id": "caesar_round_trip",
+      "expected": "original_text"
+    },
+    {
+      "id": "aes_modified_packet",
+      "expected": "error"
+    },
+    {
+      "id": "signature_modified_document",
+      "expected": "документ изменён"
+    }
+  ]
+}

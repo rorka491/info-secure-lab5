@@ -1,0 +1,188 @@
+{
+  "alphabets": {
+    "en": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+    "ru": "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ"
+  },
+  "preserved": " \t\r\n0123456789.,!?;:-–—()\"«»'",
+  "polybius": {
+    "en": [
+      "ABCDE",
+      "FGHIK",
+      "LMNOP",
+      "QRSTU",
+      "VWXYZ"
+    ],
+    "ru": [
+      "АБВГДЕ",
+      "ЁЖЗИЙК",
+      "ЛМНОПР",
+      "СТУФХЦ",
+      "ЧШЩЪЫЬ",
+      "ЭЮЯ"
+    ]
+  },
+  "aliases": {
+    "en": {
+      "J": "I"
+    },
+    "ru": {}
+  },
+  "classical": {
+    "shift": 3,
+    "keys": {
+      "en": "LAB",
+      "ru": "КЛЮЧ"
+    },
+    "permutation": [
+      2,
+      0,
+      3,
+      1
+    ],
+    "wiring": {
+      "en": "EKMFLGDQVZNTOWYHXUSPAIBRCJ",
+      "ru": "ИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯЗЖЁЕДГВБА"
+    },
+    "offset": 2
+  },
+  "vocabulary": {
+    "en": [
+      "MEET",
+      "AT",
+      "NOON",
+      "THE",
+      "STUDY",
+      "GROUP",
+      "RECORDS",
+      "TESTS",
+      "A",
+      "MODEL",
+      "SIGNAL"
+    ],
+    "ru": [
+      "ВСТРЕЧА",
+      "УЧЕБНОЙ",
+      "ГРУППЫ",
+      "В",
+      "ДЕСЯТЬ",
+      "ЧАСОВ",
+      "КОД",
+      "ЭТАП"
+    ]
+  },
+  "lsb": {
+    "pixels": 512,
+    "value": 170
+  },
+  "cardano": {
+    "size": 4,
+    "holes": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "pad": "·",
+    "text": "КОД 42"
+  },
+  "tls": {
+    "server": "relay.example.test",
+    "as_of": "2026-11-23",
+    "trusted_issuer": "CryptoLab Demo CA",
+    "context": "crypto_lab_demo_v1",
+    "certificate": {
+      "subject": "relay.example.test",
+      "issuer": "CryptoLab Demo CA",
+      "valid_from": "2026-01-01",
+      "valid_until": "2027-01-01",
+      "serial": "DEMO-005",
+      "status": "active",
+      "purpose": "server"
+    }
+  },
+  "network": {
+    "large_bytes": 1000000,
+    "repeat_count": 4,
+    "known_processes": [
+      "lab_browser",
+      "lab_sync"
+    ],
+    "known_hosts": [
+      "192.0.2.10",
+      "198.51.100.20"
+    ]
+  },
+  "signature_types": [
+    {
+      "type": "ПЭП",
+      "mechanism": "Коды, пароли или иные средства подтверждения",
+      "key_pair": "не требуется по определению",
+      "certificate": "не требуется",
+      "verification": "определение подписанта по правилам системы",
+      "recognition": "в случаях, установленных применимыми актами или соглашением"
+    },
+    {
+      "type": "УНЭП",
+      "mechanism": "Криптографическое преобразование",
+      "key_pair": "ключ подписи и ключ проверки",
+      "certificate": "квалифицированный сертификат не обязателен",
+      "verification": "определение подписанта и обнаружение изменений",
+      "recognition": "в случаях, установленных применимыми актами или соглашением"
+    },
+    {
+      "type": "УКЭП",
+      "mechanism": "Усиленная подпись с дополнительными требованиями",
+      "key_pair": "ключ проверки указан в квалифицированном сертификате",
+      "certificate": "квалифицированный",
+      "verification": "подпись, сертификат и применимые ограничения",
+      "recognition": "общий режим равнозначности собственноручной подписи с предусмотренными законом исключениями"
+    }
+  ],
+  "incidents": [
+    {
+      "name": "WannaCry",
+      "year": 2017,
+      "type": "Шифровальщик с самораспространением",
+      "encryption": "Блокирование доступа и требование выкупа",
+      "processes": "Рабочие станции и доступность служб",
+      "consequences": "Массовые сбои в нескольких странах",
+      "scope": "Международный масштаб, качественная оценка",
+      "mitigation": "Обновления, отключение устаревших протоколов, сегментация и резервные копии",
+      "source": "https://www.cisa.gov/sites/default/files/FactSheets/NCCIC%20ICS_FactSheet_WannaCry_Ransomware_S508C.pdf"
+    },
+    {
+      "name": "NotPetya",
+      "year": 2017,
+      "type": "Деструктивное ПО под видом вымогательства",
+      "encryption": "Данные и системы выводились из строя, восстановление через выкуп не было надёжным",
+      "processes": "Бизнес-системы и логистика",
+      "consequences": "Сбои в Украине и за её пределами",
+      "scope": "Международный масштаб, качественная оценка",
+      "mitigation": "Сегментация, проверка цепочки поставок и отработка восстановления",
+      "source": "https://www.cisa.gov/sites/default/files/publications/AA22-110A_Joint_CSA_Russian_State-Sponsored_and_Criminal_Cyber_Threats_to_Critical_Infrastructure_4_20_22_Final.pdf"
+    },
+    {
+      "name": "Colonial Pipeline",
+      "year": 2021,
+      "type": "Вымогательство DarkSide в корпоративной ИТ-сети",
+      "encryption": "Шифрование использовалось для давления на организацию",
+      "processes": "Корпоративные системы и эксплуатация трубопровода",
+      "consequences": "Временная остановка операций компании",
+      "scope": "Компания и региональные поставки США, качественная оценка",
+      "mitigation": "Многофакторная аутентификация, разделение ИТ и операционной сети, резервное восстановление",
+      "source": "https://www.cisa.gov/sites/default/files/publications/AA21-131A_Darkside_Ransomware.pdf"
+    }
+  ]
+}

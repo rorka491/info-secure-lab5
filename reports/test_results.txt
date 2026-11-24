@@ -1,0 +1,184 @@
+# Тесты
+
+Учебная модель, не для реальной защиты.
+Не является юридически значимой УКЭП.
+TLS-модель не совместима с реальным протоколом.
+
+{
+  "exit_code": 0,
+  "cases": [
+    {
+      "input_expected": "test_caesar[russian_shift_3_round_trip]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar[latin_case_round_trip]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar[shift_26_identity]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar[shift_67_modulo_33]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar[negative_shift_round_trip]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_known_vector",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_atbash_twice_original",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_polybius[latin_J_merges_into_I]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_polybius[russian_full_alphabet]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_vigenere_repeated_letters_and_round_trip",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_permutation_partial_block_round_trip",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_rotor_round_trip",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_normalize_and_restore_russian_format",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_26_candidates_correct_key_present",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_frequency_A3_B1",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_alphabet_26_key_3_block_4",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_large_https_flagged_with_unknown_process_and_host",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_sha256_abc_vector_and_changed_document",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_aes_gcm_nonce_fresh_and_message_round_trip",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_aes_gcm_changed_tag_error_no_plaintext",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_tls_good_card_and_wrong_subject",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_original_signature_valid",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_changed_document_detected",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_wrong_public_key_invalid",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_damaged_der_signature_invalid",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_damaged_public_key_wrong_format",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_missing_document_insufficient",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_lsb_utf8_round_trip",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_lsb_39_pixels_rejects_one_byte",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_lsb_header_flip_rejected",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_lsb_payload_flip_silently_changes_text",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_cardano_round_trip_with_padding",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_cardano_overlapping_mask_rejected",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_invalid_inputs_error[empty]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_invalid_inputs_error[unsupported_emoji]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_invalid_inputs_error[string_shift]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_invalid_inputs_error[bool_shift]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_caesar_invalid_inputs_error[mixed_alphabets]",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_polybius_unsupported_letter_error",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_empty_vigenere_key_error",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_permutation_duplicate_indices_error",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_missing_input_dataset_controlled",
+      "actual": "пройден"
+    },
+    {
+      "input_expected": "test_corrupt_json_dataset_controlled",
+      "actual": "пройден"
+    }
+  ],
+  "pytest": "...........................................                              [100%]\n- generated xml file: tests.xml -\n43 passed in 0.24s\n"
+}
